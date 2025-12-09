@@ -1,0 +1,17 @@
+# --- 1. Ignore Editor Settings (Crucial for you) ---
+# This ensures your "C:/Users/Daan" settings stay local only
+.vscode/
+
+# --- 2. Ignore Python "Junk" ---
+# Python generates these automatically; never share them.
+__pycache__/
+*.pyc
+
+# --- 3. Ignore Jupyter Notebook Backups ---
+# Jupyter creates backup folders that clutter the project
+.ipynb_checkpoints/
+
+# --- 4. Ignore Data (Optional) ---
+# If you have huge datasets that are too big for GitHub
+#*.csv
+#*.xlsx
